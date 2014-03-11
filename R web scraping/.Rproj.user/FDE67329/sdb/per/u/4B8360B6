@@ -1,0 +1,16 @@
+{
+    "contents" : "url = \"http://arm.co.za/im/press.php?yr=2013\"\ndoc = htmlTreeParse(url)\n\nheadlines = xpathSApply(doc, \"//a[contains(@href, 'profile')]\", xmlValue)\n\n\nurl = \"http://www.consumercomplaints.in/bysubcategory/mobile-service-providers/page/1.html\"\ndoc = htmlTreeParse(url)\n\nprofiles = xpathSApply(doc, \"//a[contains(@href, 'profile')]\", xmlValue)",
+    "created" : 1382106616347.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1439004742",
+    "id" : "4B8360B6",
+    "lastKnownWriteTime" : 578055781,
+    "path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
